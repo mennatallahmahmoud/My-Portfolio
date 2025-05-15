@@ -61,7 +61,7 @@ export default function Footer({scrollRef}) {
             }}>
             <img src="/assests/scroll-to-top.svg" alt="Scroll Btn" className="w-8"/>
         </div>
-        <p className="mt-5 font-bold text-sm me-auto">&copy; Mennat-Allah <span>{copyRightYear}</span></p>
+        <p className="mt-8 font-bold text-sm me-auto">&copy; Mennat-Allah <span>{copyRightYear}</span></p>
     </footer>
   )
 }

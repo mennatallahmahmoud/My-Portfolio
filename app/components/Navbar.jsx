@@ -68,19 +68,19 @@ export default function Navbar({scrollRef}) {
                     <div ref={mainMenuRef} className="hidden">
                         <ul
                             className="main-menu absolute right-0 flex flex-col justify-evenly bg-white shadow-lg rounded-box z-1 mt-3 w-60 p-2">
-                            <li id="about-nav" className={`${activeTab === 'about-nav' ? 'bg-[#012885] text-white' : ''} text-center my-1 cursor-pointer shadow-sm transition-all duration-200 tracking-[0.5px] rounded hover:bg-[#012885] hover:text-white`}
+                            <li id="about-nav" className={`${activeTab === 'about-nav' ? 'bg-[#012885] text-white' : ''} text-[#012885] text-center my-1 cursor-pointer shadow-sm transition-all duration-200 tracking-[0.5px] rounded hover:bg-[#012885] hover:text-white`}
                                 onClick={() => {setActiveTab("about-nav")}}
                             ><a href="#about" className="block w-full h-full py-4 my-1">About Me</a></li>
-                            <li id="projects-nav" className={`${activeTab === 'projects-nav' ? 'bg-[#012885] text-white' : ''} text-center my-1 cursor-pointer shadow-sm transition-all duration-200 tracking-[0.5px] rounded hover:bg-[#012885] hover:text-white`}
+                            <li id="projects-nav" className={`${activeTab === 'projects-nav' ? 'bg-[#012885] text-white' : ''} text-[#012885] text-center my-1 cursor-pointer shadow-sm transition-all duration-200 tracking-[0.5px] rounded hover:bg-[#012885] hover:text-white`}
                                 onClick={() => {setActiveTab("projects-nav")}}
                             ><a href="#projects" className="block w-full h-full py-4 my-1">Projects</a></li>
-                            <li id="skills-nav" className={`${activeTab === 'skills-nav' ? 'bg-[#012885] text-white' : ''} text-center my-1 cursor-pointer shadow-sm transition-all duration-200 tracking-[0.5px] rounded hover:bg-[#012885] hover:text-white`}
+                            <li id="skills-nav" className={`${activeTab === 'skills-nav' ? 'bg-[#012885] text-white' : ''} text-[#012885] text-center my-1 cursor-pointer shadow-sm transition-all duration-200 tracking-[0.5px] rounded hover:bg-[#012885] hover:text-white`}
                                 onClick={() => {setActiveTab("skills-nav")}}
                             ><a href="#skills" className="block w-full h-full py-4 my-1">Skills</a></li>
-                            <li id="certificates-nav" className={`${activeTab === 'certificates-nav' ? 'bg-[#012885] text-white' : ''} text-center my-1 cursor-pointer shadow-sm transition-all duration-200 tracking-[0.5px] rounded hover:bg-[#012885] hover:text-white`}
+                            <li id="certificates-nav" className={`${activeTab === 'certificates-nav' ? 'bg-[#012885] text-white' : ''} text-[#012885] text-center my-1 cursor-pointer shadow-sm transition-all duration-200 tracking-[0.5px] rounded hover:bg-[#012885] hover:text-white`}
                                 onClick={() => {setActiveTab("certificates-nav")}}
                             ><a href="#certificates" className="block w-full h-full py-4 my-1">Certificates</a></li>
-                            <li id="contact-nav" className={`${activeTab === 'contact-nav' ? 'bg-[#012885] text-white' : ''} text-center my-1 cursor-pointer shadow-sm transition-all duration-200 tracking-[0.5px] rounded hover:bg-[#012885] hover:text-white`}
+                            <li id="contact-nav" className={`${activeTab === 'contact-nav' ? 'bg-[#012885] text-white' : ''} text-[#012885] text-center my-1 cursor-pointer shadow-sm transition-all duration-200 tracking-[0.5px] rounded hover:bg-[#012885] hover:text-white`}
                                 onClick={() => {setActiveTab("contact-nav")}}
                             ><a href="#contacts" className="block w-full h-full py-4 my-1">Contact Me</a></li>
                         </ul>
