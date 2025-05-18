@@ -48,7 +48,8 @@ body {
   animation: moving 1s infinite linear alternate;
 }
 
-.certificate-btn {
+.certificate-btn,
+.resume-btn {
   animation: opacity 1s infinite ease-in-out;
 }
 .certificate-btn:hover {

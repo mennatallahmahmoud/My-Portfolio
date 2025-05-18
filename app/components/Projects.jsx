@@ -1,8 +1,13 @@
+"use client";
+
 import MyProjects from "../../data/data.json";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { useRef } from "react";
 
 export default function Projects() {
+
+    const resumeRef = useRef(null);
 
     const projects = MyProjects.projects.map((project) => (
         <motion.div key={project.id}
@@ -38,10 +43,37 @@ export default function Projects() {
 
   return (
     <main className="mb-14">
-      <h2 className="text-white text-xl font-bold mb-2">Projects</h2>
-      <div className="mt-8 ">
-        {projects}
-      </div>
+        <h2 className="text-white text-xl font-bold mb-2">Projects</h2>
+        <div className="mt-8 ">
+            {projects}
+        </div>
+        <div className="mt-8 text-white">
+            <button className="resume-btn font-bold flex items-center transition-all duration-500 hover:opacity-100 cursor-pointer"
+                onClick={() => {
+                resumeRef.current.classList.remove("hidden")
+                }}>
+                <span>View Resume</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-3 ms-2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+            </button>
+            <div ref={resumeRef} className="relative hidden">
+                <iframe src="/assests/Mennat-Allah Mahmoud-Resume.pdf" className="w-full h-[500px] lg:h-[800px] ">ITI Certificates</iframe>
+                <Link href="/assests/Mennat-Allah Mahmoud-Resume.pdf" download className="absolute flex items-center font-bold bottom-2.5 left-1/2 -translate-x-1/2 transition-all duration-500 bg-[#0055a6] hover:bg-[#002d81] mb-3 px-10 py-2 rounded-md cursor-pointer">Download
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-3 ms-2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+                </Link>
+                <button className="absolute top-20 right-15 cursor-pointer transition-all duration-500 bg-[#0000006b] hover:bg-red-600 rounded-md "
+                onClick={() => {
+                    resumeRef.current.classList.add("hidden")
+                }}>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.5" stroke="currentColor" className="size-8 p-0.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+                </button>
+            </div>
+        </div>
     </main>
   )
 }
