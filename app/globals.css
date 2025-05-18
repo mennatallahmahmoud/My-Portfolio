@@ -49,12 +49,16 @@ body {
 }
 
 .certificate-btn,
-.resume-btn {
+.resume-btn,
+.download-btn {
   animation: opacity 1s infinite ease-in-out;
 }
-.certificate-btn:hover {
+
+.certificate-btn:hover,
+.resume-btn:hover,
+.download-btn:hover {
   animation-play-state: paused;
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 .contact-icon {
