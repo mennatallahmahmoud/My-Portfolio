@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function Contacts() {
@@ -13,7 +14,7 @@ export default function Contacts() {
             transition={{ duration: 0.9 }}
             viewport={{ once: true, amount: 0.5 }}>
             <Link href="https://wa.me/201091821803" target="_blank" className="relative w-fit flex items-start md:items-center gap-1.5 before:absolute before:w-0 before:h-full before:top-0 before:left-0 before:bg-[#4aae20] before:rounded-tr-[20px] before:rounded-tl-[3px] before:rounded-br-[20px] before:rounded-bl-[3px] before:transition-all before:duration-1000 px-[20px] py-[10px] hover:before:w-full">
-                <img src="/assests/whatsapp.svg" alt="Whatsapp Icon" className="contact-icon relative z-5 w-4 mt-1 md:mt-0"/>
+                <Image src="/assests/whatsapp.svg" alt="Whatsapp Icon" width={16} height={16} className="contact-icon relative z-5 mt-1 md:mt-0"/>
                 <p className="relative z-5 tracking-[1px] text-sm md:text-base">Reach out instantly via WhatsApp!</p>
             </Link>
           </motion.div>
@@ -23,7 +24,7 @@ export default function Contacts() {
             transition={{ duration: 0.9 }}
             viewport={{ once: true, amount: 0.5 }}>
             <Link href="mailto:mennamahamed@gmail.com" target="_blank" className="relative w-fit mt-1 flex items-start md:items-center gap-1.5 before:absolute before:w-0 before:h-full before:top-0 before:left-0 before:bg-[#4e5860] before:rounded-tr-[20px] before:rounded-tl-[3px] before:rounded-br-[20px] before:rounded-bl-[3px] before:transition-all before:duration-1000 px-[20px] py-[10px] hover:before:w-full">
-                <img src="/assests/email.svg" alt="Email Icon" className="contact-iconrelative z-5 w-5 mt-1 md:mt-0"/>
+                <Image src="/assests/email.svg" alt="Email Icon" width={20} height={20} className="contact-iconrelative z-5 mt-1 md:mt-0"/>
                 <p className="relative z-5 tracking-[1px] text-sm md:text-base">For business inquiries, please send me an Email.</p>
             </Link>
           </motion.div>

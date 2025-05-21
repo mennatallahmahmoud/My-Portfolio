@@ -1,12 +1,13 @@
 import MySkills from '../../data/data.json';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Skills() {
 
   const skills = MySkills.skills.map((skill) => (
     <div key={skill.name} className='flex items-center justify-center text-white gap-2 bg-[#ffffff21] rounded-4xl w-fit transition-all duration-500 py-3 px-4 border-2 border-transparent hover:border-[#ffffffc2] hover:bg-[#ffffff3b]'>
       {skill.icon !== "" &&
-        <img src={skill.icon} alt={skill.name} className='w-8'/>
+        <Image src={skill.icon} alt={skill.name} width={32} height={20}/>
       }
       <span className='font-bold'>{skill.name}</span>
     </div>

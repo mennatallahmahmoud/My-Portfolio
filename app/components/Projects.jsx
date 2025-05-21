@@ -1,6 +1,7 @@
 import MyProjects from "../../data/data.json";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Projects() {
 
@@ -13,9 +14,9 @@ export default function Projects() {
             <Link href={project.link} target="_blank">
                 <div className="mt-4 text-white flex flex-col md:flex-row items-start justify-center gap-4 transition-all duration-700 bg-[#0000003b] hover:bg-[#0000006b] hover:-translate-x-3 p-7 rounded-[6px]">
                     <figure className="lg:flex-[60%] mt-1">
-                        <img
+                        <Image width={176} height={60}
                         src={project.img}
-                        alt={project.title} className="w-44 rounded"/>
+                        alt={project.title} className="rounded"/>
                     </figure>
                     <div>
                         <h2 className="text-lg font-bold mb-1 flex items-center">

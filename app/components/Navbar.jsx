@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 export default function Navbar({scrollRef}) {
 
@@ -57,7 +58,8 @@ export default function Navbar({scrollRef}) {
         <div className="container navbar bg-transparent mx-auto">
             <div className="navbar-start ms-5">
                 <Link className="logo" href='/'>
-                    <img src="/assests/MY-LOGO.png" alt="My Logo"/>
+                    <Image src="/assests/MY-LOGO.png" alt="My Logo" width={90} height={90}/>
+                    <span className='sr-only'>Reload The Page</span>
                 </Link>
             </div>
             <div className="navbar-end me-5">

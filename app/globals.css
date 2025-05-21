@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: var(--font-roboto);
-  background-image: url("/assests/hero.png");
+  background-image: url("/assests/hero.webp");
   background-size: cover;
   background-position: center;
   object-fit: cover;
@@ -23,12 +23,6 @@ body {
 .footer .logo {
   display: block;
   padding-top: 5px;
-}
-.navbar .logo {
-  width: 90px;
-}
-.footer .logo {
-  width: 80px;
 }
 .navbar .logo img {
   max-width: 100%;
