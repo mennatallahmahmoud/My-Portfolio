@@ -83,7 +83,7 @@ export default function Sidebar({scrollRef, nextRef}) {
                         </li>
                         <li className='me-3'>
                             <Link href="https://www.codewars.com/users/mennahamed" target='_blank'>
-                                <Image src='/assests/codewars.svg' alt='Visit my Codewars Profile' width={20} height={20} className='opacity-50 transition-all duration-1000 hover:opacity-100'/>
+                                <Image src='/assests/codewars.svg' alt='Codewars Profile' width={20} height={20} className='opacity-50 transition-all duration-1000 hover:opacity-100'/>
                                 <span className='sr-only'>Visit My Codewars Profile</span>
                             </Link>
                         </li>

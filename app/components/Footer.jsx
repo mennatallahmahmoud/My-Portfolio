@@ -50,7 +50,7 @@ export default function Footer({scrollRef}) {
             </li>
             <li className='me-3'>
                 <Link href="https://www.codewars.com/users/mennahamed" target='_blank'>
-                    <Image src='/assests/codewars.svg' alt="Visit my Codewars Profile" width={22} height={22} className='opacity-50 transition-all duration-1000 hover:opacity-100'/>
+                    <Image src='/assests/codewars.svg' alt="Codewars Profile" width={22} height={22} className='opacity-50 transition-all duration-1000 hover:opacity-100'/>
                     <span className='sr-only'>Visit My Codewars Profile</span>
                 </Link>
             </li>
