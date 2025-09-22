@@ -105,7 +105,11 @@
         },
         {
             "name": "Netlify",
-            "icon": ""
+            "icon": "/assests/skills/netlify.webp"
+        },
+        {
+            "name": "Vercel",
+            "icon": "/assests/skills/vercel.svg"
         },
         {
             "name": "Responsive Web Design",
