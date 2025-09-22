@@ -3,30 +3,38 @@
         {
             "id": 1,
             "img": "/assests/projects/project-1.png",
+            "title": "ElShamadan",
+            "desc": "A product showcase website for ElShamadan brand, presenting items and promotions.",
+            "link": "https://elshamadanco.vercel.app",
+            "tools": ["NextJs", "Tailwind", "daisyUI"]
+        },
+        {
+            "id": 2,
+            "img": "/assests/projects/project-2.png",
             "title": "Recipe Hunter",
             "desc": "A web app that allows users to search for food recipes with a clean and responsive interface.",
             "link": "https://recipe-hunter-app.netlify.app",
             "tools": ["React", "Redux", "Tailwind"]
         },
         {
-            "id": 2,
-            "img": "/assests/projects/project-2.png",
+            "id": 3,
+            "img": "/assests/projects/project-3.png",
             "title": "Foodera Restaurant",
             "desc": "A modern restaurant landing page built with React, featuring smooth scrolling and engaging design.",
             "link": "https://foodera-restaurant.netlify.app",
             "tools": ["React", "Redux", "Bootstrap"]
         },
         {
-            "id": 3,
-            "img": "/assests/projects/project-3.png",
+            "id": 4,
+            "img": "/assests/projects/project-4.png",
             "title": "Porto Medical",
             "desc": "A professional medical center website showcasing departments, doctors, and booking information.",
             "link": "https://mennatallahmahmoud.github.io/Porto-Medical",
             "tools": ["Tailwind"]
         },
         {
-            "id": 4,
-            "img": "/assests/projects/project-7.png",
+            "id": 5,
+            "img": "/assests/projects/project-5.png",
             "title": "Who Wants to Be a Millionaire?",
             "desc": "A fun quiz game inspired by the popular TV show, testing general knowledge in a multiple-choice format.",
             "link": "https://who-wants-to-be-millionaire-game.netlify.app",
@@ -34,24 +42,16 @@
             
         },
         {
-            "id": 5,
-            "img": "/assests/projects/project-4.png",
+            "id": 6,
+            "img": "/assests/projects/project-6.png",
             "title": "KET",
             "desc": "A multi-section website for a design and development agency, highlighting services and past projects.",
             "link": "https://mennatallahmahmoud.github.io/ket",
             "tools": ["JavaScript", "Bootstrap"]
         },
         {
-            "id": 6,
-            "img": "/assests/projects/project-5.png",
-            "title": "ElShamadan",
-            "desc": "A product showcase website for ElShamadan brand, presenting items and promotions.",
-            "link": "https://mennatallahmahmoud.github.io/elshamadan.co",
-            "tools": ["JavaScript", "CSS"]
-        },
-        {
             "id": 7,
-            "img": "/assests/projects/project-6.png",
+            "img": "/assests/projects/project-7.png",
             "title": "Merneith",
             "desc": "An e-commerce-style fashion website displaying a clothing collection with brand story integration.",
             "link": "https://mennatallahmahmoud.github.io/merneith",
