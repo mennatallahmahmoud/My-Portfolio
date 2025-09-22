@@ -43,7 +43,7 @@
         },
         {
             "id": 6,
-            "img": "/assests/projects/project-6",
+            "img": "/assests/projects/project-6.png",
             "title": "KET",
             "desc": "A multi-section website for a design and development agency, highlighting services and past projects.",
             "link": "https://mennatallahmahmoud.github.io/ket",
@@ -51,7 +51,7 @@
         },
         {
             "id": 7,
-            "img": "/assests/projects/project-1.png",
+            "img": "/assests/projects/project-7.png",
             "title": "Merneith",
             "desc": "An e-commerce-style fashion website displaying a clothing collection with brand story integration.",
             "link": "https://mennatallahmahmoud.github.io/merneith",
